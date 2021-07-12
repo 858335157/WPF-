@@ -1,0 +1,72 @@
+﻿<Window x:Class="WpfApp1.StarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:helix="http://helix-toolkit.org/wpf"
+        mc:Ignorable="d"
+        Title="WPF Animation Testing" 
+        Height="600" 
+        Width="800"
+        WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid >
+        <Button  Style="{StaticResource StarButtonBack}" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform x:Name="trans3" Angle="0"/>
+                    <ScaleTransform ScaleX="4" ScaleY="1.4"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button  Style="{StaticResource StarButtonBack}" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform x:Name="trans2" Angle="0"/>
+                    <ScaleTransform  ScaleX="3" ScaleY="1.2"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button  Style="{StaticResource StarButtonBack}" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform x:Name="trans1" Angle="0"/>
+                    <ScaleTransform ScaleX="2"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource StarButton}">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="Button.Click">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation To="360" 
+                                             RepeatBehavior="Forever" 
+                                             Duration="0:0:2"
+                                             Storyboard.TargetName="trans1"
+                                             Storyboard.TargetProperty="Angle"/>
+                            <DoubleAnimation To="360" 
+                                             RepeatBehavior="Forever" 
+                                             Duration="0:0:3"
+                                             Storyboard.TargetName="trans2"
+                                             Storyboard.TargetProperty="Angle"/>
+                            <DoubleAnimation To="360" 
+                                             RepeatBehavior="Forever" 
+                                             Duration="0:0:2.5"
+                                             Storyboard.TargetName="trans3"
+                                             Storyboard.TargetProperty="Angle"/>
+                            <!--
+                            <DoubleAnimation To="0.9" RepeatBehavior="Forever" Duration="0:0:1.8" AutoReverse="true"
+                                             Storyboard.TargetName="trans4"
+                                             Storyboard.TargetProperty="ScaleX"/>
+                            <DoubleAnimation To="0.8" RepeatBehavior="Forever" Duration="0:0:1.2" AutoReverse="true"
+                                             Storyboard.TargetName="trans4"
+                                             Storyboard.TargetProperty="ScaleY"/>
+                            -->
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+    </Grid>
+</Window>

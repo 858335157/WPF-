@@ -1,0 +1,82 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ImageBrush   x:Key="StarButtonEllBack" ImageSource="../images/圆光效.png" Stretch="Uniform"/>
+    <ImageBrush   x:Key="StarButtonEllFore" ImageSource="../images/圆.png" Stretch="Uniform"/>
+    <Style x:Key="NormalMouseButton" TargetType="Button">
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="border" 
+                            BorderThickness="{TemplateBinding BorderThickness}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                                          VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Opacity" Value="0.8" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!-- Start 星球和旋转星环 -->
+    <Style x:Key="StarButton" TargetType="Button">
+        <Setter Property="Width" Value="190"/>
+        <Setter Property="Height" Value="190"/>
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+        <Setter Property="Background" Value="{StaticResource ResourceKey=StarButtonEllFore}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="border" 
+                            BorderThickness="{TemplateBinding BorderThickness}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                                          VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Opacity" Value="0.8" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="StarButtonBack" TargetType="Button">
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Height" Value="250"/>
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+        <Setter Property="Background" Value="{StaticResource ResourceKey=StarButtonEllBack}"/>
+        <Setter Property="Template">
+
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="border" 
+                            BorderThickness="{TemplateBinding BorderThickness}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                                          VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Opacity" Value="0.8" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!-- End 星球和旋转星环 -->
+</ResourceDictionary>
