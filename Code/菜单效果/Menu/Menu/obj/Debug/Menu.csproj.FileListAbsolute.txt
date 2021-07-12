@@ -1,0 +1,15 @@
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\bin\Debug\Menu.exe.config
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\bin\Debug\Menu.exe
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\bin\Debug\Menu.pdb
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\Menu.csproj.AssemblyReference.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\MainWindow.g.cs
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\App.g.cs
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\Menu_MarkupCompile.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\Menu_MarkupCompile.lref
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\MainWindow.baml
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\Menu.g.resources
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\Menu.Properties.Resources.resources
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\Menu.csproj.GenerateResource.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\Menu.exe
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\菜单效果\Menu\Menu\obj\Debug\Menu.pdb
