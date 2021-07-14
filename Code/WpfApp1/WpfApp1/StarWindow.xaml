@@ -36,6 +36,11 @@
             </Button.RenderTransform>
         </Button>
         <Button Style="{StaticResource StarButton}">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform x:Name="trans4" ScaleX="1"/>
+                </TransformGroup>
+            </Button.RenderTransform>
             <Button.Triggers>
                 <EventTrigger RoutedEvent="Button.Click">
                     <BeginStoryboard>
@@ -55,14 +60,14 @@
                                              Duration="0:0:2.5"
                                              Storyboard.TargetName="trans3"
                                              Storyboard.TargetProperty="Angle"/>
-                            <!--
+                            
                             <DoubleAnimation To="0.9" RepeatBehavior="Forever" Duration="0:0:1.8" AutoReverse="true"
                                              Storyboard.TargetName="trans4"
                                              Storyboard.TargetProperty="ScaleX"/>
                             <DoubleAnimation To="0.8" RepeatBehavior="Forever" Duration="0:0:1.2" AutoReverse="true"
                                              Storyboard.TargetName="trans4"
                                              Storyboard.TargetProperty="ScaleY"/>
-                            -->
+                            
                         </Storyboard>
                     </BeginStoryboard>
                 </EventTrigger>
