@@ -1,0 +1,16 @@
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\bin\Debug\MVVMLearn.exe.config
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\bin\Debug\MVVMLearn.exe
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\bin\Debug\MVVMLearn.pdb
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MVVMLearn.csproj.AssemblyReference.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MainWindow.g.cs
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\App.g.cs
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MVVMLearn_MarkupCompile.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MVVMLearn_MarkupCompile.lref
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MainWindow.baml
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MVVMLearn.g.resources
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MVVMLearn.Properties.Resources.resources
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MVVMLearn.csproj.GenerateResource.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MVVMLearn.csproj.CoreCompileInputs.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MVVMLearn.exe
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\MVVMLearn.pdb
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\MVVMLearn\MVVMLearn\MVVMLearn\obj\Debug\GeneratedInternalTypeHelper.g.cs
