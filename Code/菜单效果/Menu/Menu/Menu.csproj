@@ -42,7 +42,7 @@
   <ItemGroup>
     <Reference Include="ControlLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\用户控件\ControlLibrary\ControlLibrary\bin\Debug\ControlLibrary.dll</HintPath>
+      <HintPath>..\..\..\ControlLib\ControlLibrary\ControlLibrary\bin\Debug\ControlLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.1\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>

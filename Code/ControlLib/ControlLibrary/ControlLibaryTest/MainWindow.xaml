@@ -1,0 +1,39 @@
+﻿<Window x:Class="ControlLibaryTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cl="clr-namespace:ControlLibrary;assembly=ControlLibrary"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlLibaryTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <StackPanel>
+            <DockPanel Height="50">
+                <cl:Setting Width="90"  Gemini="1" btnClickEvent="btnClickEvent"/>
+                <Button x:Name="btn1"/>
+            </DockPanel>
+            <DockPanel Height="50">
+                <cl:BlockStack Width="90" Gemini="2" btnClickEvent="btnClickEvent"/>
+                <Button x:Name="btn2"/>
+            </DockPanel>
+            <DockPanel Height="50">
+                <cl:Crowd  Width="90"  Gemini="3" btnClickEvent="btnClickEvent"/>
+                <Button x:Name="btn3"/>
+            </DockPanel>
+            <DockPanel Height="50">
+                <cl:Mail  Width="90" Gemini="4" btnClickEvent="btnClickEvent"/>
+                <Button x:Name="btn4"/>
+            </DockPanel>
+            <DockPanel Height="50">
+                <cl:People  Width="90"  Gemini="5" btnClickEvent="btnClickEvent"/>
+                <Button x:Name="btn5"/>
+            </DockPanel>
+            <DockPanel Height="50">
+                <cl:Shield  Width="90" Gemini="6" btnClickEvent="btnClickEvent"/>
+                <Button x:Name="btn6"/>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\bin\Debug\TestApp1.exe.config
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\bin\Debug\TestApp1.exe
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\bin\Debug\TestApp1.pdb
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\TestApp1.csproj.AssemblyReference.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\MainWindow.g.cs
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\App.g.cs
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\TestApp1_MarkupCompile.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\TestApp1_MarkupCompile.lref
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\MainWindow.baml
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\TestApp1.g.resources
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\TestApp1.Properties.Resources.resources
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\TestApp1.csproj.GenerateResource.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\TestApp1.csproj.CoreCompileInputs.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\TestApp1.exe
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\TestApp1.pdb
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\Dictionary1.baml
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\测试用\TestApp1\TestApp1\obj\Debug\App.baml
