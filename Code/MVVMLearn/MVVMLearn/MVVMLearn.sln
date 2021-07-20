@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLearn", "MVVMLearn\MVVMLearn.csproj", "{B1DA42F9-AF04-47DF-B9E5-222A7C10913A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第一个mvvm成功", "MVVMLearn\第一个mvvm成功.csproj", "{B1DA42F9-AF04-47DF-B9E5-222A7C10913A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

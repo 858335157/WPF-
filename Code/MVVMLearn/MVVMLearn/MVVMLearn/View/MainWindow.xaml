@@ -1,0 +1,293 @@
+﻿<Window x:Class="MVVMLearn.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMLearn.View"
+        xmlns:vm="clr-namespace:MVVMLearn.ViewModel"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:hc="https://handyorg.github.io/handycontrol" xmlns:viewmodel="clr-namespace:MVVMLearn.ViewModel" 
+        Title="MainWindow" Height="616" Width="979">
+    <Window.DataContext>
+        <vm:MainWindowVM/>
+    </Window.DataContext>
+    <Grid MouseWheel="Grid_MouseWheel">
+
+        <TabControl   SelectedIndex="{Binding IndexValue}">
+            <TabItem Visibility="Collapsed">
+                <Border>
+                    <TextBlock Style="{StaticResource TextBlockLargeBold}" Foreground="{DynamicResource TextIconBrush}">
+                                <RichTextBox Margin="32" Width="400" Height="300" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                                    <FlowDocument>
+                                        <Paragraph>
+                                            <Run FontSize="20" Text="1111"/>
+                                        </Paragraph>
+                                        <Paragraph>
+                                            <Run Text="erterParameter=1000,Mode=OneWay"/>
+                                        </Paragraph>
+                                        <Paragraph>
+                                            <Hyperlink>https://github.com/NaBian/HandyControl</Hyperlink>
+                                        </Paragraph>
+                                    </FlowDocument>
+                                </RichTextBox>
+                    </TextBlock>
+                </Border>
+            </TabItem>
+            <TabItem Visibility="Collapsed"  >
+                <hc:TransitioningContentControl>
+                    <hc:CalendarWithClock Margin="32" Width="500" Height="350"/>
+                </hc:TransitioningContentControl>
+            </TabItem>
+            <TabItem Visibility="Collapsed">
+                <Border >
+                    <TextBlock Style="{StaticResource TextBlockLargeBold}" >
+                                <Run Text="{Binding IndexValue}"/>
+                    </TextBlock>
+                </Border>
+            </TabItem>
+            <TabItem Visibility="Collapsed">
+                <Border >
+                    <TextBlock Style="{StaticResource TextBlockLargeBold}" >
+                                <Run Text="{Binding IndexValue}"/>
+                    </TextBlock>
+                </Border>
+            </TabItem>
+            <TabItem Visibility="Collapsed">
+                <Border >
+                    <TextBlock Style="{StaticResource TextBlockLargeBold}">
+                                <Run Text="{Binding IndexValue}"/>
+                    </TextBlock>
+                </Border>
+            </TabItem>
+            <TabItem Visibility="Collapsed">
+                <Border >
+                    <TextBlock Style="{StaticResource TextBlockLargeBold}" >
+                                <Run Text="{Binding IndexValue}"/>
+                    </TextBlock>
+                </Border>
+            </TabItem>
+            <TabItem Visibility="Collapsed">
+                <Border >
+                    <TextBlock Style="{StaticResource TextBlockLargeBold}" >
+                                <Run Text="{Binding IndexValue}"/>
+                    </TextBlock>
+                </Border>
+            </TabItem>
+            <TabItem Visibility="Collapsed">
+                <Border >
+                    <TextBlock Style="{StaticResource TextBlockLargeBold}" >
+                                <Run Text="{Binding IndexValue}"/>
+                    </TextBlock>
+                </Border>
+            </TabItem>
+            <TabItem Visibility="Collapsed">
+                <Border >
+                    <TextBlock Style="{StaticResource TextBlockLargeBold}" >
+                                <Run Text="{Binding IndexValue}"/>
+                    </TextBlock>
+                </Border>
+            </TabItem>
+            <TabItem Visibility="Collapsed">
+                <Border >
+                    <TextBlock Style="{StaticResource TextBlockLargeBold}" >
+                                <Run Text="{Binding IndexValue}"/>
+                    </TextBlock>
+                </Border>
+            </TabItem>
+        </TabControl>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <hc:Drawer Name="DrawerRight" Dock="Right" ShowMode="Push">
+                <Slider Height="400" 
+                        Margin="0,0,25,0"
+                        hc:TipElement.Visibility="Hidden" 
+                        hc:TipElement.Placement="Left" 
+                        IsSnapToTickEnabled="True" 
+                        Maximum="{Binding MaxValue}" 
+                        Minimum="0"
+                        Value="{Binding IndexValueReverse}" 
+                        TickFrequency="1" 
+                        TickPlacement="BottomRight" 
+                        
+                        Orientation="Vertical"/>
+            </hc:Drawer>
+            
+            <hc:Drawer Name="DrawerTop" Dock="Top" ShowMode="Press">
+                <Grid Background="Transparent" Height="120" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="120"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.8*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1.2*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1.2*"/>
+                        </Grid.RowDefinitions>
+                        <Button Width="35"
+                                Height="35"
+                                HorizontalAlignment="Left"
+                        Style="{StaticResource ButtonIconCircular}" 
+                        Foreground="Violet" 
+                        hc:IconElement.Geometry="{StaticResource FatalGeometry}"/>
+                        <Button Width="35"
+                                Height="35"
+                                Grid.Row="1"
+                                HorizontalAlignment="Right"
+                                Margin="0,0,8,30"
+                                Grid.RowSpan="2"
+                        Style="{StaticResource ButtonIconCircular}" 
+                        Foreground="MediumAquamarine" 
+                        hc:IconElement.Geometry="{StaticResource AddGeometry}"/>
+
+                        <Button Width="35"
+                                Height="35"
+                                Grid.Row="2"
+                                Grid.Column="1"
+                                Command="hc:ControlCommands.Close"
+                        Style="{StaticResource ButtonIconCircular}" 
+                        Foreground="Maroon" 
+                        hc:IconElement.Geometry="{StaticResource CloseGeometry}"/>
+
+
+                    </Grid>
+
+                </Grid>
+
+            </hc:Drawer>
+
+
+            <ToggleButton  Grid.Row="0" Grid.Column="2" 
+                                Width="40"
+                                Height="40"
+                           Style="{StaticResource MaterialDesignFlatToggleButton}"
+                           IsChecked="{Binding IsOpen,ElementName=DrawerTop}">
+
+                <materialDesign:PackIcon 
+                                Width="25"
+                                Height="25"
+                                Kind="Cards" />
+            </ToggleButton>
+
+            <ToggleButton Grid.Row="1" Grid.Column="2"
+                                Width="40"
+                                Height="40"
+                           Style="{StaticResource MaterialDesignFlatToggleButton}"
+                           IsChecked="{Binding IsOpen,ElementName=DrawerRight}">
+
+                <materialDesign:PackIcon 
+                                Width="30"
+                                Height="30"
+                                Kind="UnfoldMoreHorizontal" />
+            </ToggleButton>
+
+        </Grid>
+
+        <Grid d:IsHidden="True" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <hc:TransitioningContentControl Grid.Row="1" Grid.Column="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <hc:NumericUpDown x:Name="UpDownGroups" 
+                                  HorizontalAlignment="Center" 
+                                  Value="2" 
+                                  Minimum="2" 
+                                  Maximum="10" 
+                                  Style="{StaticResource NumericUpDownExtend}" 
+                                  hc:TitleElement.Title="测试1" 
+                                  hc:TitleElement.TitleWidth="50" 
+                                  hc:TitleElement.TitlePlacement="Left"/>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" 
+                                  HorizontalAlignment="Center" >
+                        <hc:ScrollViewer MaxHeight="600">
+                            <hc:WaterfallPanel VerticalAlignment="Center" Width="900" Groups="{Binding Value,ElementName=UpDownGroups}" 
+                                           hc:PanelElement.FluidMoveBehavior="{StaticResource BehaviorXY200}">
+                                <Border Height="100" Background="{DynamicResource PrimaryBrush}"  Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="140" Background="{DynamicResource DangerBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="100" Background="{DynamicResource SuccessBrush}"  Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="170" Background="{DynamicResource InfoBrush}"  Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="100" Background="{DynamicResource WarningBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="120" Background="{DynamicResource DangerBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="90" Background="{DynamicResource WarningBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="150" Background="{DynamicResource InfoBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="170" Background="{DynamicResource PrimaryBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="100" Background="{DynamicResource PrimaryBrush}"  Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="140" Background="{DynamicResource DangerBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="100" Background="{DynamicResource SuccessBrush}"  Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="170" Background="{DynamicResource InfoBrush}"  Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="100" Background="{DynamicResource WarningBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="120" Background="{DynamicResource DangerBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="90" Background="{DynamicResource WarningBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="150" Background="{DynamicResource InfoBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                                <Border Height="170" Background="{DynamicResource PrimaryBrush}" Margin="5">
+                                    <TextBlock Text="测试1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                                </Border>
+                            </hc:WaterfallPanel>
+                        </hc:ScrollViewer>
+                    </StackPanel>
+                </Grid>
+            </hc:TransitioningContentControl>
+
+        </Grid>
+    </Grid>
+</Window>

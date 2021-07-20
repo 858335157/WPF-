@@ -1,0 +1,55 @@
+﻿<Window x:Class="MVVMLearn.View.DataBindTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMLearn.View"
+        xmlns:vm="clr-namespace:MVVMLearn.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel Style="{x:Null}">
+        <DockPanel.Background>
+            <SolidColorBrush
+                    Color="LightSteelBlue"
+                    Opacity="{Binding DoubleValue}"/>
+        </DockPanel.Background>
+        <DockPanel.DataContext>
+            <vm:DataBindTestVM/>
+        </DockPanel.DataContext>
+        <TextBox 
+            Margin="5"
+            DockPanel.Dock="Top" 
+            IsReadOnly="True"
+            Text="{Binding DoubleValue}">
+        </TextBox>
+        <Slider 
+            Margin="5"
+            DockPanel.Dock="Top" 
+            Minimum="0"
+            Maximum="1"
+            Value="{Binding DoubleValue}"/>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+            <StackPanel.Background>
+                <SolidColorBrush
+                    Color="LightSteelBlue"
+                    Opacity="{Binding DoubleValue}"/>
+            </StackPanel.Background>
+            <StackPanel.DataContext>
+                <vm:DataBindTestVM/>
+            </StackPanel.DataContext>
+            <TextBox 
+            Margin="5"
+                Width="100"
+            DockPanel.Dock="Top" 
+            IsReadOnly="True"
+            Text="{Binding DoubleValue}">
+            </TextBox>
+            <Slider 
+            Margin="5"
+                Width="400"
+            Minimum="0"
+            Maximum="1"
+            Value="{Binding DoubleValue}"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

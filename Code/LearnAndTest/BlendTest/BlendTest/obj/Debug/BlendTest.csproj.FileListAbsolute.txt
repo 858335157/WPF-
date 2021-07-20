@@ -1,0 +1,17 @@
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\bin\Debug\BlendTest.exe.config
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\bin\Debug\BlendTest.exe
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\bin\Debug\BlendTest.pdb
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\BlendTest.csproj.AssemblyReference.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\MainWindow.g.cs
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\App.g.cs
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\BlendTest_MarkupCompile.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\BlendTest_MarkupCompile.lref
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\MainWindow.baml
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\BlendTest.g.resources
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\BlendTest.Properties.Resources.resources
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\BlendTest.csproj.GenerateResource.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\BlendTest.csproj.CoreCompileInputs.cache
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\BlendTest.exe
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\BlendTest.pdb
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\Simple Styles.baml
+D:\PROJECT\WpfAnimation\WPF-Animation\Code\LearnAndTest\BlendTest\BlendTest\obj\Debug\App.baml
